@@ -85,6 +85,20 @@ main {
     flex-basis: 33%;
 }
 
+.flexItemItinerary {
+    justify-content: center;
+    flex-basis: 70%;
+}
+.container-itinerary {
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+    max-width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
 ul {
     list-style: none;
     padding: 0; 
