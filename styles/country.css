@@ -2,11 +2,12 @@
     flex-basis: 65%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .country__image {
-    width: 8rem;
-    height: 8rem;
+    width: 15rem;
+    height: 15rem;
 }
 
 .tipList {
