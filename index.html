@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
 
-    
+
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav class="navigation">
@@ -20,98 +22,104 @@
     </header>
 
     <body>
-        <header>
-            <nav class="navigation">
-                <a class="navigation__link" href="index.html">TRAVEL!!</a>
 
-            </nav>
-        </header>
-
-        <main class="container">
-            <article class="fishList">
-                <!-- Hey look! It's an HTML representation of one of Martin's fish -->
-                <div class="fish flexItem">
-                    <div>
-                        <img class="fish__image" src="https://3.imimg.com/data3/IW/XT/GLADMIN-105863/fish-125x125.jpg"
-                            alt="">
-                    </div>
-                    <div class="fish__name">Bart</div>
-                    <div>
-                        <button id="button--bart">Details</button>
-                    </div>
-
-                    <dialog class="dialog--fish" id="details--bart">
-                        <div>Species: Orange Clownfish</div>
-                        <div>Location: Caribbean</div>
-                        <div>Length: 3</div>
-                        <div>Food: Algae, crustaceans</div>
-
-                        <button class="button--close" id="close-bart">Close Dialog</button>
-                    </dialog>
-                </div>
+        <img class="headerImage"
+            src="https://moduscreate.com/wp-content/uploads/2016/11/placing_markers_inside_google_maps_polygons_00-1280x720.jpg"
+            alt="Map">
+        <section class="bordered">
+            <h1>Travel</h1>
 
 
+            <main class="container">
+                <article class="countryList">
+                    <!-- Hey look! It's an HTML representation of France -->
+                    <div class="country flexItem">
+                        <div>
+                            <img class="country__image"
+                                src="https://3.imimg.com/data3/IW/XT/GLADMIN-105863/fish-125x125.jpg" alt="">
+                        </div>
+                        <div class="country__name">France</div>
+                        <div>
+                            <button id="button--france">Details</button>
+                        </div>
 
-                <section class="fish flex">
-                    <div>
-                        <img class="fish__image" src="https://i.ytimg.com/vi/z_XlTRYLZ1Q/maxresdefault.jpg" />
-                    </div>
-                    <div class="fish__name">Betty</div>
-                    <div>
-                        <button id="button--betty">Details</button>
+                        <dialog class="country--fish" id="details--france">
+                            <div>Species: Orange Clownfish</div>
+                            <div>Location: Caribbean</div>
+                            <div>Length: 3</div>
+                            <div>Food: Algae, crustaceans</div>
+
+                            <button class="button--close" id="close-france">Close Dialog</button>
+                        </dialog>
                     </div>
 
-                    <dialog class="dialog--fish" id="details--betty">
-                        <div>Species: Longtooth Barracuda</div>
-                        <div>Location: Cumberland River</div>
-                        <div>Length: 2 ft</div>
-                        <div>Food: Squid</div>
+                    <!-- Hey look! It's an HTML representation of Italy -->
 
-                        <button class="button--close" id="close-betty">Close Dialog</button>
-                    </dialog>
-                </section>
-                <section class="fish">
-                    <div>
-                        <img class="fish__image"
-                            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7xhhlta3q-wVKpgzGdTlpAHaFj%26pid%3DApi&f=1" />
-                    </div>
-                    <div class="fish__name">Nemo</div>
-                    <div>
-                        <button id="button--nemo">Details</button>
-                    </div>
-                    <dialog class="dialog--fish" id="details--nemo">
-                        <div>Species: Clownfish</div>
-                        <div>Location: Great Barrier Reef</div>
-                        <div>Length: 2 in</div>
-                        <div>Food: Plankton</div>
+                    <section class="country flex">
+                        <div>
+                            <img class="country__image" src="https://i.ytimg.com/vi/z_XlTRYLZ1Q/maxresdefault.jpg" />
+                        </div>
+                        <div class="country__name">Italy</div>
+                        <div>
+                            <button id="button--italy">Details</button>
+                        </div>
 
-                        <button class="button--close" id="close-nemo">Close Dialog</button>
-                    </dialog>
-                </section>
-                <section class="fish">
-                    <div>
-                        <img class="fish__image"
-                            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthedisneyinme.files.wordpress.com%2F2013%2F12%2Fdory.jpg&f=1&nofb=1" />
-                    </div>
-                    <div class="fish__name">Dory</div>
-                    <div>
-                        <button id="button--dory">Details</button>
-                    </div>
-                    <dialog class="dialog--fish" id="details--dory">
-                        <div>Species: Blue Tang</div>
-                        <div>Location: New Zealand Sea</div>
-                        <div>Length: 4 in</div>
-                        <div>Food: Clownfish</div>
+                        <dialog class="dialog--country" id="details--italy">
+                            <div>Species: Longtooth Barracuda</div>
+                            <div>Location: Cumberland River</div>
+                            <div>Length: 2 ft</div>
+                            <div>Food: Squid</div>
 
-                        <button class="button--close" id="close-dory">Close Dialog</button>
-                    </dialog>
-                </section>
-
-            
-        </main>
+                            <button class="button--close" id="close-italy">Close Dialog</button>
+                        </dialog>
+                    </section>
 
 
-        <script type="module" src="./scripts/main.js"></script>
+                    <!-- Hey look! It's an HTML representation of Japan-->
+                    <section class="country">
+                        <div>
+                            <img class="country__image"
+                                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7xhhlta3q-wVKpgzGdTlpAHaFj%26pid%3DApi&f=1" />
+                        </div>
+                        <div class="country__name">Japan</div>
+                        <div>
+                            <button id="button--japan">Details</button>
+                        </div>
+                        <dialog class="dialog--country" id="details--japan">
+                            <div>Species: Clownfish</div>
+                            <div>Location: Great Barrier Reef</div>
+                            <div>Length: 2 in</div>
+                            <div>Food: Plankton</div>
+
+                            <button class="button--close" id="close-japan">Close Dialog</button>
+                        </dialog>
+                    </section>
+
+                    <!-- Hey look! It's an HTML representation of Ireland -->
+                    <section class="country">
+                        <div>
+                            <img class="country__image"
+                                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthedisneyinme.files.wordpress.com%2F2013%2F12%2Fdory.jpg&f=1&nofb=1" />
+                        </div>
+                        <div class="country__name">Ireland</div>
+                        <div>
+                            <button id="button--ireland">Details</button>
+                        </div>
+                        <dialog class="dialog--country" id="details--ireland">
+                            <div>Species: Blue Tang</div>
+                            <div>Location: New Zealand Sea</div>
+                            <div>Length: 4 in</div>
+                            <div>Food: Clownfish</div>
+
+                            <button class="button--close" id="close-ireland">Close Dialog</button>
+                        </dialog>
+                    </section>
+
+
+            </main>
+
+
+            <script type="module" src="./scripts/main.js"></script>
     </body>
 
 </html>

@@ -16,38 +16,38 @@ const initializeDetailButtonEvents = () => {
 
     // You will be writing code below this line
 
-    // Show Bart's details when the button is clicked
-    document.querySelector("#button--bart").addEventListener(
+    // Show France's details when the button is clicked
+    document.querySelector("#button--france").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--bart")
+            const theDialog = document.querySelector("#details--france")
             theDialog.showModal()
         }
     )
 
-    // Show Betty's details when the button is clicked
-    document.querySelector("#button--betty").addEventListener(
+    // Show Italy's details when the button is clicked
+    document.querySelector("#button--italy").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--betty")
+            const theDialog = document.querySelector("#details--italy")
             theDialog.showModal()
         }
     )
 
-    // Show Nemo's details when the button is clicked
-    document.querySelector("#button--nemo").addEventListener(
+     // Show Japans's details when the button is clicked
+     document.querySelector("#button--japan").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--nemo")
+            const theDialog = document.querySelector("#details--japan")
             theDialog.showModal()
         }
     )
 
-    // Show Dory's details when the button is clicked
-    document.querySelector("#button--dory").addEventListener(
+    // Show Ireland's details when the button is clicked
+    document.querySelector("#button--ireland").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--dory")
+            const theDialog = document.querySelector("#details--ireland")
             theDialog.showModal()
         }
     )
@@ -55,4 +55,5 @@ const initializeDetailButtonEvents = () => {
     
 }
 initializeDetailButtonEvents()
+
 export default initializeDetailButtonEvents
