@@ -2,7 +2,7 @@
 @import "header.css";
 @import "footer.css";
 @import "nav.css";
-@import "travel.css";
+@import "index.css";
 @import "background.css";
 
 a:hover {
@@ -30,7 +30,6 @@ a:link {
     letter-spacing: 8px;
     opacity: .75;
     background-color: whitesmoke;
-    display: flex;
     justify-content: center;
 }
 
@@ -44,13 +43,11 @@ a:link {
     letter-spacing: 6px;
     opacity: .75;
     background-color: whitesmoke;    
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .list__container {
     justify-content: center;
-    flex-basis: 33%;
+    flex-basis: 30%;
     border: solid 1px rgb(0, 0, 0);
     transition: border-width 0.9s linear;
 }
@@ -82,5 +79,5 @@ a:link {
     list-style: none;
     display: flex;
     flex-basis: 60%;
-
+    justify-content: space-between;
 }
