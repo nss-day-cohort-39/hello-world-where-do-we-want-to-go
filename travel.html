@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
 
-
-    <title>Document</title>
-</head>
-
-<body class = "font">
+    <body>
 
     <header>
         <nav class="navigation">
@@ -22,106 +18,107 @@
         </nav>
     </header>
 
-    <body>
+    <img class="headerImage"
+        src="https://moduscreate.com/wp-content/uploads/2016/11/placing_markers_inside_google_maps_polygons_00-1280x720.jpg"
+        alt="Map"/>
 
-        <img class="headerImage"
-            src="https://moduscreate.com/wp-content/uploads/2016/11/placing_markers_inside_google_maps_polygons_00-1280x720.jpg"
-            alt="Map">
-        <section class="bordered">
-            <h1>Travel</h1>
+        <section class=country>Travel</section>
 
-
-            <main class="container">
-                <article class="countryList">
-                    <!-- Hey look! It's an HTML representation of France -->
-                    <div class="country flexItem">
-                        <div>
-                            <img class="country__image"
-                                src="https://s.france24.com/media/display/463c50cc-78bb-11e9-a9bf-005056a964fe/w:1240/p:16x9/paris_tourism_-_eiffel_tower.jpg" alt="">
-                        </div>
-                        <div class="country__name">Why to go to France</div>
-                        <div>
-                            <button id="button--france">Details</button>
-                        </div>
-
-                        <dialog class="font country--fish" id="details--france">
-                            <li>Cheese</Li>
-                            <Li>Wine</Li>
-                            <Li>Romanace</Li>
-                            <li>Fashion</li>
-
-                            <button class="button--close" id="close-france">Close</button>
-                        </dialog>
-                    </div>
-
-                    <!-- Hey look! It's an HTML representation of Italy -->
-
-                    <section class="font country flex">
-                        <div>
-                            <img class="country__image" src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2011/05/italy-1200x815.jpg" />
-                        </div>
-                        <div class="country__name">Why to go to Italy</div>
-                        <div>
-                            <button id="button--italy">Details</button>
-                        </div>
-
-                        <dialog class="dialog--country" id="details--italy">
-                            <li>Art</li>
-                            <li>Food paradise</li>
-                            <li>Dramatic landscapes</li>
-                            <li>Shopping</li>
+    <main class="travelBackgroundColor">
 
 
-                            <button class="button--close" id="close-italy">Close</button>
-                        </dialog>
-                    </section>
+        <!-- Hey look! It's an HTML representation of France -->
 
+        <article class="country">
+            <img class="country__image"
+                src="https://s.france24.com/media/display/463c50cc-78bb-11e9-a9bf-005056a964fe/w:1240/p:16x9/paris_tourism_-_eiffel_tower.jpg"
+                alt="">
+            </div>
+            <div class="country__reasons">Why to go to France</div>
+            <div>
+                <button id="button--france">Details</button>
+            </div>
+            <dialog class="dialog--country" id="details--france">
+                <ul class="list__within__dialogbox">
+                    <li>Cheese</Li>
+                    <Li>Wine</Li>
+                    <Li>Romanace</Li>
+                    <li>Fashion</li>
+                </ul>
+                <button class="button--close" id="close-france">Close</button>
+            </dialog>
+            </div>
 
-                    <!-- Hey look! It's an HTML representation of Japan-->
-                    <section class="country flex">
-                        <div>
-                            <img class="country__image"
-                                src="https://rccl-h.assetsadobe.com/is/image/content/dam/royal/ports-and-destinations/destinations/japan/assets/japan-fuji-mountain-himeji-castle-full-cherry-blossom-h.jpg?$750x667$" />
-                        </div>
-                        <div class="country__name">Why to go to Japan</div>
-                        <div>
-                            <button id="button--japan">Details</button>
-                        </div>
-                        <dialog class="dialog--country" id="details--japan">
-                            <li>Natual Landscapes</li>
-                            <li>Food</li>
-                            <li>Efficient Public transportation</li>
-                            <li>Stunning temples and shrines</li>
+            <!-- Hey look! It's an HTML representation of Italy -->
 
-                            <button class="button--close" id="close-japan">Close</button>
-                        </dialog>
-                    </section>
+            <section class="country">
+                <div>
+                    <img class="country__image"
+                        src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2011/05/italy-1200x815.jpg" />
+                </div>
+                <div class="country__reasons">Why to go to Italy</div>
+                <div>
+                    <button id="button--italy">Details</button>
+                </div>
 
-                    <!-- Hey look! It's an HTML representation of Ireland -->
-                    <section class="country flex">
-                        <div>
-                            <img class="country__image"
-                                src="https://www.azamara.com/sites/default/files/heros/pr-24-may-2020-dublin-ireland.jpg" />
-                        </div>
-                        <div class="country__name">Why to go to Ireland</div>
-                        <div>
-                            <button id="button--ireland">Details</button>
-                        </div>
-                        <dialog class="dialog--country" id="details--ireland">
-                            <li>Pubs</li>
-                            <li>Castles</li>
-                            <li>Super friendly people</li>
-                            <li>Saint Patrick's Day</li>
+                <dialog class="dialog--country" id="details--italy">
+                    <ul class="list__within__dialogbox">
+                        <li>Art</li>
+                        <li>Food paradise</li>
+                        <li>Dramatic landscapes</li>
+                        <li>Shopping</li>
+                    </ul>
+                    <button class="button--close" id="close-italy">Close</button>
+                </dialog>
+            </section>
 
-                            <button class="button--close" id="close-ireland">Close</button>
-                        </dialog>
-                    </section>
+            <!-- Hey look! It's an HTML representation of Japan-->
 
+            <section class="country">
+                <div>
+                    <img class="country__image"
+                        src="https://rccl-h.assetsadobe.com/is/image/content/dam/royal/ports-and-destinations/destinations/japan/assets/japan-fuji-mountain-himeji-castle-full-cherry-blossom-h.jpg?$750x667$" />
+                </div>
+                <div class="country__reasons">Why to go to Japan</div>
+                <div>
+                    <button id="button--japan">Details</button>
+                </div>
+                <dialog class="dialog--country" id="details--japan">
+                    <ul class="list__within__dialogbox">
+                        <li>Natual Landscapes</li>
+                        <li>Food</li>
+                        <li>Efficient Public transportation</li>
+                        <li>Stunning temples and shrines</li>
+                    </ul>
+                    <button class="button--close" id="close-japan">Close</button>
+                </dialog>
+            </section>
 
-            </main>
+            <!-- Hey look! It's an HTML representation of Ireland -->
 
+            <section class="country">
+                <div>
+                    <img class="country__image"
+                        src="https://www.azamara.com/sites/default/files/heros/pr-24-may-2020-dublin-ireland.jpg" />
+                </div>
+                <div class="country__reasons">Why to go to Ireland</div>
+                <div>
+                    <button id="button--ireland">Details</button>
+                </div>
+                <dialog class="dialog--country" id="details--ireland">
+                    <ul class="list__within__dialogbox">
+                        <li>Pubs</li>
+                        <li>Castles</li>
+                        <li>Super friendly people</li>
+                        <li>Saint Patrick's Day</li>
+                    </ul>
+                    <button class="button--close" id="close-ireland">Close</button>
+                </dialog>
+            </section>
 
-            <script type="module" src="./scripts/main.js"></script>
-    </body>
+    </main>
+
+    <script type="module" src="./scripts/main.js"></script>
+</body>
 
 </html>
