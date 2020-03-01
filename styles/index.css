@@ -24,7 +24,6 @@
     display: inline-block; 
 }
 
-
 .country__container {
    flex-wrap: wrap; 
    display: flex;
