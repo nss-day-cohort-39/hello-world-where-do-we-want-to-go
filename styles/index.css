@@ -11,14 +11,15 @@
     text-align: center;
     letter-spacing: 2px;
     opacity: .75;
-    list-style: none;
+    list-style-position: unset;
 }
 
 .country__reasons {
-    font-size: 20px;
+    font-size: 15px;
     flex-wrap: wrap;
 }
 
 .country {
-    display: flex;
+    display: inline-table; 
 }
+
