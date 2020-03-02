@@ -28,6 +28,10 @@
     
 }
 
+.list__title > li {
+    font-size: 300;
+}
+
 .list__container {
     justify-content: center;
     flex-basis: 30%;
