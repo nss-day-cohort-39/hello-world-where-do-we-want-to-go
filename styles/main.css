@@ -37,6 +37,7 @@
     flex-basis: 30%;
     border: solid 1px rgb(0, 0, 0);
     transition: border-width 0.9s linear;
+    color: black;
 }
   
 .list__container:hover { 
