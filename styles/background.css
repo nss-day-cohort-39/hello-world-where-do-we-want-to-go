@@ -1,5 +1,4 @@
-
-.france__background {
+.franceBackgroundColor {
     background-color: hsla(0, 64%, 91%, 0.2);
     animation: color-me-in 3s; /* other keywords like "infinite alternate" can be useful here */
 }
