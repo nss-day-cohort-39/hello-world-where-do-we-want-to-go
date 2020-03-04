@@ -1,19 +1,19 @@
 const landmarkCollection = [
     {
-        name: "eiffel tower",
+        name: "Eiffel Tower",
     },
 
     {
-        name: "PALACE OF VERSAILLES",
+        name: "Palace of Versailles",
     
     },
 
     {
-        name: "LOUVRE MUSEUM",
+        name: "Louvre Museum",
     },
 
     {
-        name: "NOTRE DAME",
+        name: "Notre Dame",
     }
 ]
 

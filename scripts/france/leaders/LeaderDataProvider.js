@@ -1,10 +1,10 @@
 const leaderCollection = [
     {
-        name: "EMMANUEL MACRON",
+        name: "Emmanuel Macron",
     },
 
     {
-        name: "ÉDOUARD PHILIPPE",
+        name: "Édouard Phillipe",
     
     }
 ]
