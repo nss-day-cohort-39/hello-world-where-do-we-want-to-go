@@ -1,0 +1,34 @@
+.franceBackgroundColor {
+    background-color: hsla(0, 64%, 91%, 0.2);
+    animation: color-me-in 3s; /* other keywords like "infinite alternate" can be useful here */
+}
+
+.italyBackgroundColor {
+    background-color: hsla(225, 30%, 63%, 0.2) ;
+    animation: color-me-in 3s; /* other keywords like "infinite alternate" can be useful here */
+}
+
+.irelandBackgroundColor {
+    background-color: hsla(26, 76%, 84%, 0.3);
+    animation: color-me-in 3s; /* other keywords like "infinite alternate" can be useful here */
+}
+
+.japanBackgroundColor {
+    background-color: rgba(230, 200, 200, 0.3);
+    animation: color-me-in 3s; /* other keywords like "infinite alternate" can be useful here */
+}
+
+@keyframes color-me-in {
+    /* You could think of as "step 1" */
+    0% {
+        background: rgb(196, 196, 196);
+    }
+    /* You could think of as "step 2" */
+    100% {
+        background: rgb(255, 255, 255);
+    }
+  }
+
+
+
+  
