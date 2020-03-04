@@ -1,5 +1,5 @@
-import { useLandmarks } from "./LandmarkDataProvider.js";
-import Landmark from "./landmark.js";
+import { useLandmarks } from "./LandmarkDataProvider.js"
+import Landmark from "./landmark.js"
 
 const LandmarkList = () => {
 

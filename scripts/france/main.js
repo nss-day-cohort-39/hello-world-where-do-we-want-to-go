@@ -1,6 +1,6 @@
-import CityList from "./cities/CityList.js"
-import LandmarkList from "./landmarks/LandmarksList.js"
-import LeaderList from "./leaders/LeaderList.js"
+import CityList from "./CityList.js"
+import LandmarkList from "./LandmarksList.js"
+import LeaderList from "./LeaderList.js"
 
 
 CityList()

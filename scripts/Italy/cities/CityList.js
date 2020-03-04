@@ -1,5 +1,5 @@
-import { useCity } from "./CityDataProvider.js";
-import City from "./cities.js";
+import { useCity } from "./CityDataProvider.js"
+import City from "./cities.js"
 
 const CityList = () => {
 
