@@ -1,5 +1,5 @@
-import { useLeaders } from "./LeaderDataProvider.js";
-import Leader from "./leader.js";
+import { useLeaders } from "./LeaderDataProvider.js"
+import Leader from "./leader.js"
 
 const LeaderList = () => {
 
