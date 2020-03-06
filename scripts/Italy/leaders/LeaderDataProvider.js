@@ -1,21 +1,11 @@
 const arrayOfLeaderObjects = [
     {
-        name: "Sistine Chapel"
+        name: "Emmanuel Macron"
     },
 
-    {
-        name: "Cathedral of Santa Maria del Fiore"
-    },
-
-    {
-        name: "Colosseum"
-
-    },
-
-    {
-        name: "Pantheon"
+    {   name: "Édouard Philippe"
     }
-
+    
 ]
 
 export const useLeaders = () => {
