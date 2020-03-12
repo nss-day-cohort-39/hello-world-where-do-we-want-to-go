@@ -1,9 +1,9 @@
 const arrayOfLeaderObjects = [
     {
-        name: "Emmanuel Macron"
+        name: "Giuseppe Conte"
     },
 
-    {   name: "Édouard Philippe"
+    {   name: "Sergio Mattarella"
     }
     
 ]
